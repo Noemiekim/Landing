@@ -51,10 +51,11 @@ margin-left:630px;
   background-image: url("https://thumbs.gfycat.com/SevereInsecureJoey-size_restricted.gif");
   background-size: cover;
   background-position: left;
-  padding: 250px;
+  padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
   height:100vh;
+  margin-top:200px;
 }
 #banner h1 {
   color: white;
@@ -158,11 +159,14 @@ margin-left:40px;
 }
 
 #geo {
-  margin-top: -200px;
-margin-left:650px;
-}
+  margin-top: -10px;
+
+margin-left:10px;
 }
 
-#proximite{
-  background-color: 
+#map {
+   margin-top: _10px;
+   margin-left:50px;
+   align-content: center;
+}
 }
