@@ -1,62 +1,168 @@
-body{
-  background: rgb(245,245,245);
-  color: green;
-  font-size: 25px;
-  font-family: Helvetica;
+.header {
+  height:90px;
+  padding: 10px 16px;
+  background: white;
+  color: #f1f1f1;
+  
+
 }
-h1{
-  font-family: Courier;
-  color: red;
-  font-weight: lighter;
-  font-size: 10px;
+
+.burger {
+  width:3%;
 }
-h2 {
-  font-family: Courier;
-  color: pink;
-  font-weight: lighter;
-  font-size: 8px;
+
+.logo {
+  width:4%;
+margin-left:630px;
 }
-a {
-  color: yellow;
+
+.burger, .logo {
+    display: inline-block;
+    
 }
-a:hover {
-  text-decoration: none;
-  color: purple;
+
+#navbar{
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: block;
+    z-index: 15;
+    left: 0;
+    right:0;
+    opacity: 1;
 }
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+
+
 
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url("https://thumbs.gfycat.com/SevereInsecureJoey-size_restricted.gif");
   background-size: cover;
-  padding: 150px;
+  background-position: left;
+  padding: 250px;
   color: white;
   text-shadow: 1px 1px 5px black;
+  height:100vh;
 }
 #banner h1 {
   color: white;
   font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 #banner p {
   color: white;
-  opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+  text-align: center;
+  margin-top: 40px;
 }
+
+#banner a{
+  margin-top:50px;
+}
+
+.card{
+  
+  font-weight: lighter;
+  text-align: left;
+  padding: 20px;
+  margin-left: 50;
+  margin-right: auto;
+  width:100%;
+  height:100vh;
+  line-height: 35px;
+}
+
+.card h2{
+  width:50%;
+  text-align: justify;
+}
+.card p{
+  width:50%;
+  margin-top: 40px;
+  font-size:20px;
+  text-align: justify;
+}
+
+
+.titleBlock__line__block {
+    display: block;
+    height: 1px;
+    background: #f06a39;
+    width: 8%;
+    margin-top: 50px;
+}    
+  
+
 #footer{
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
+  text-align: center;
+  font-size: 18;
+
 }
-.card{
-  padding: 50px;
-  font-weight: lighter;
-}
+
 
 
 #footer a {
   color: lightgrey;
-  font-size: 15px;
+  font-size: 40px;
+
 }
 #footer a:hover {
   color: white;
+}
+
+#map {
+margin-top: -400px;
+}
+
+.card a{
+margin-top:20px;
+  
+}
+
+#container {
+
+display: inline-block;
+
+}
+
+
+#picture{
+  margin-top: 50px;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+#allergenes{
+  margin-top: 20px;
+margin-left:40px;
+}
+
+#geo {
+  margin-top: -200px;
+margin-left:650px;
+}
+}
+
+#proximite{
+  background-color: 
 }
